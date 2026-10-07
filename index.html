@@ -1,0 +1,1007 @@
+<!DOCTYPE html>
+<html lang="en"><head>
+
+
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <link rel="icon" href="./images/badge-2.png" type="image/x-icon">
+    <link rel="stylesheet" href="./css/all.min.css">
+    <link rel="stylesheet" href="./css/fonts.css">
+    <link rel="stylesheet" href="./css/bootstrap.css">
+    <link rel="stylesheet" href="./css/global.css">
+    <link rel="stylesheet" href="./css/keyFrames.css">
+    <link rel="stylesheet" href="./css/style.css">
+    <link rel="stylesheet" href="./css/responsive.css">
+
+    <title>Delici</title>
+</head>
+
+<body>
+    <nav class="nav-bar">
+        <div class="container">
+            <div class="logo">
+                <img src="./images/logo.png" class="img-fluid" alt="logo">
+            </div>
+            <div class="links">
+                <ul class="mb-0 p-0">
+                    <li class="active"><a href="#Home" class="mainLink">Home</a></li>
+                    <li><a href="#About" class="mainLink">About Us</a></li>
+                    <li><a href="#Story" class="mainLink">Our Story</a></li>
+                    <li><a href="#Special" class="mainLink">Special Dish</a></li>
+                    <li><a href="#Menu" class="mainLink">Menu</a></li>
+                    <li><a href="#Chefs" class="mainLink">Our Chefs</a></li>
+                    <li><a href="#Contact" class="mainLink">Contact Us</a></li>
+                </ul>
+            </div>
+            <div class="nav-icon" onclick="openPopup('navPopup')">
+                <span></span>
+                <span></span>
+                <span></span>
+            </div>
+        </div>
+    </nav>
+
+    <header id="Home">
+        <div class="carousel-container h-100">
+            <button class="next"><i class="fa-solid fa-angle-right"></i></button>
+            <button class="prev"><i class="fa-solid fa-angle-left"></i></button>
+
+            <div class="indicators">
+                <span class="active" data-target="1"></span>
+                <span data-target="2"></span>
+                <span data-target="3"></span>
+            </div>
+
+            <div class="carousel-body h-100">
+                <div class="carousel-content h-100 active" data-page-number="1">
+                    <div class="content">
+                        <h6 class="main-color">DELIGHTFUL EXPERIENCE</h6>
+                        <img src="./images/separator.svg" alt="decor" class="decor-icon">
+                        <h1 class="text-white">
+                            Flavors Inspired By
+                            <br>
+                            The Seasons
+                        </h1>
+                        <p class="text-white">Come with family &amp; feel the joy of mouthwatering food</p>
+                        <a href="#Menu" class="mainButton">
+                            <span>VIEW OUR MENU</span>
+                        </a>
+                    </div>
+                </div>
+                <div class="carousel-content h-100" data-page-number="2">
+                    <div class="content">
+                        <h6 class="main-color">AMAZING &amp; DELICIOUS</h6>
+                        <img src="./images/separator.svg" alt="decor" class="decor-icon">
+                        <h1 class="text-white">
+                            Where Every Flavor
+                            <br>
+                            Tells A Story
+                        </h1>
+                        <p class="text-white">Come with family &amp; feel the joy of mouthwatering food</p>
+                        <a href="#Menu" class="mainButton">
+                            <span>VIEW OUR MENU</span>
+                        </a>
+                    </div>
+                </div>
+                <div class="carousel-content h-100" data-page-number="3">
+                    <div class="content">
+                        <h6 class="main-color">TRADATIONAL &amp; HYGINE</h6>
+                        <img src="./images/separator.svg" alt="decor" class="decor-icon">
+                        <h1 class="text-white">
+                            For The Love Of
+                            <br>
+                            Delicious Food
+                        </h1>
+                        <p class="text-white">Come with family &amp; feel the joy of mouthwatering food</p>
+                        <a href="#Menu" class="mainButton">
+                            <span>VIEW OUR MENU</span>
+                        </a>
+                    </div>
+                </div>
+            </div>
+
+            <div class="book-table" onclick="openPopup('bookTable')">
+                <img src="./images/book-icon-1.png" alt="book-table">
+                <p>BOOK A TABLE</p>
+            </div>
+        </div>
+    </header>
+
+    <section id="About" class="main-bg">
+        <img src="./images/bg-1.png" alt="aboutBg">
+        <img src="./images/bg-2.png" alt="aboutBg">
+
+        <div class="container position-relative">
+            <div class="title text-center">
+                <h4>FLAVORS FOR ROYALTY</h4>
+                <img src="./images/separator.svg" alt="separator">
+                <h2 class="display-5">We Offer Top Notch</h2>
+            </div>
+
+            <div class="content">
+                <div class="row row-gap-5">
+                    <div class="box col-lg-4 order-2 order-lg-1">
+                        <div class="item position-relative">
+                            <img src="./images/pattern-8.svg" alt="pattern" class="w-50 mx-auto d-block position-relative">
+                            <img src="./images/offer-image-1.jpg" alt="offer" class="img-fluid position-absolute d-block mx-auto z-2">
+                        </div>
+                        <div class="text text-center">
+                            <h2 class="text-white">Breakfast</h2>
+                            <a href="#Menu" class="mainLink">VIEW MENU</a>
+                        </div>
+                    </div>
+                    <div class="box col-lg-4 order-1 order-lg-2">
+                        <p class="text-center text-white my-4 mx-4 mx-lg-0">Lorem Ipsum is simply dummy text of the
+                            printing and
+                            typesetting industry lorem Ipsum has
+                            been the industrys standard dummy text ever.
+                        </p>
+                        <div class="item position-relative">
+                            <img src="./images/pattern-8.svg" alt="pattern" class="w-50 mx-auto d-block position-relative">
+                            <img src="./images/offer-image-2.jpg" alt="offer" class="img-fluid position-absolute d-block mx-auto z-2">
+                        </div>
+                        <div class="text text-center">
+                            <h2 class="text-white">Lunch</h2>
+                            <a href="#Menu" class="mainLink">VIEW MENU</a>
+                        </div>
+                    </div>
+                    <div class="box col-lg-4 order-3">
+                        <div class="item position-relative">
+                            <img src="./images/pattern-8.svg" alt="pattern" class="w-50 mx-auto d-block position-relative">
+                            <img src="./images/offer-image-3.jpg" alt="offer" class="img-fluid position-absolute d-block mx-auto z-2">
+                        </div>
+                        <div class="text text-center">
+                            <h2 class="text-white">Drinks</h2>
+                            <a href="#Menu" class="mainLink">VIEW MENU</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="Story">
+        <div class="container">
+            <div class="row row-gap-5">
+                <div class="part-1 col-md-6 col-lg-6 text-center">
+                    <div class="title">
+                        <h4>OUR STORY</h4>
+                        <img src="./images/separator.svg" alt="separator">
+                        <h2 class="display-5">
+                            Every Flavor Tells
+                            <br>
+                            A Story
+                        </h2>
+                    </div>
+                    <div class="content text-center text-white">
+
+                        <p class="mx-auto">Lorem Ipsum is simply dummy text of the printingand typesetting industry
+                            lorem Ipsum has been
+                            the industrys standard dummy text ever since the when an unknown printer took a galley of
+                            type and scrambled it to make a type specimen book It has survived not only five centuries,
+                            but also the leap into.</p>
+
+                        <div class="book-now d-flex flex-column gap-2 mb-2">
+                            <span class="fw-bolder">Booking Request</span>
+                            <a href="tel:+201021080042" class="mainLink h4 main-color">+20-102-108-0042</a>
+                        </div>
+
+                        <button class="mainButton"><span>Read More</span></button>
+
+                    </div>
+                </div>
+                <div class="part-2 col-11 col-sm-8 col-md-6 col-lg-6 mx-auto">
+                    <div class="box">
+                        <img src="./images/image-1.jpg" alt="restaurant">
+
+                        <div class="poster poster-1">
+                            <img src="./images/badge-1-bg.png" class="badge-bg" alt="badge">
+                        </div>
+
+                        <div class="poster poster-2">
+                            <img src="./images/pattern-8.svg" class="pattern" alt="pattern">
+                            <img src="./images/image-2.jpg" class="img-fluid position-relative" alt="chef">
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="Special">
+        <div class="row">
+            <div class="part-1 col-12 col-md-6 col-lg-6">
+                <div class="item"></div>
+            </div>
+            <div class="part-2 col-12 col-md-6 col-lg-6 main-bg py-5">
+                <div class="item">
+                    <img src="./images/badge-2.png" alt="badge">
+
+                    <div class="title">
+                        <h4>SPECIAL DISH</h4>
+                        <img src="./images/separator.svg" alt="separator">
+                        <h2 class="display-5">
+                            Lobster Tortellini
+                        </h2>
+                    </div>
+
+                    <p class="text-white lh-lg">Lorem Ipsum is simply dummy text of the printingand typesetting industry
+                        lorem Ipsum has been the
+                        industrys standard dummy text ever since the when an unknown printer took a galley of type.</p>
+
+                    <div class="prise d-flex column-gap-4 align-items-center">
+                        <h5 class="main-prise text-secondary"><del>$40.00</del></h5>
+                        <h2 class="discount main-color">$20.00</h2>
+                    </div>
+
+                    <a href="#Menu" class="mainButton"><span>VIEW ALL MENU</span></a>
+
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="Menu">
+        <img src="./images/bg-5.png" alt="menuBg">
+        <img src="./images/bg-6.png" alt="menuBg">
+
+        <div class="container position-relative">
+            <div class="title text-center">
+                <h4>SPECIAL SELECTION</h4>
+                <img src="./images/separator.svg" alt="separator">
+                <h2 class="display-5">Delicious Menu</h2>
+            </div>
+
+            <div class="content">
+                <div class="button-container w-100">
+                    <ul class="buttons">
+                        <li class="button-item">
+                            <button class="button-link mainLink active" id="BreakFast" data-target="BreakFast">BreakFast</button>
+                        </li>
+                        <span class="rotate-decor d-block"></span>
+                        <li class="button-item">
+                            <button class="button-link mainLink" id="Lunch" data-target="Lunch">Lunch</button>
+                        </li>
+                        <span class=" rotate-decor d-block"></span>
+                        <li class="button-item">
+                            <button class="button-link mainLink" id="dinner" data-target="Dinner">dinner</button>
+                        </li>
+                        <span class=" rotate-decor d-block"></span>
+                        <li class="button-item">
+                            <button class="button-link mainLink" id="Drinks" data-target="Drinks">Drinks</button>
+                        </li>
+                    </ul>
+                </div>
+
+                <div class=" menu-content text-white mt-5 position-relative">
+                    <div class="line"></div>
+
+                    <div class="main-menu fade show active" id="BreakFast">
+                        <div class="break-fast main-menu-content row row-gap-5">
+                        
+        <div class="item col-11 col-sm-9 col-md-6 col-lg-6 mx-auto row" data-id="1">
+            <div class="frame col-5 col-lg-3">
+                <div class="image">
+                    <img src="./images/BF-1.webp" alt="BreakFast">
+                    <div class="layout">
+                        <i class="fa-regular fa-square-plus" onclick="productPopup(this)"></i>
+                    </div>
+                </div>
+            </div>
+            <div class="text col-7 col-lg-9">
+                <div class="header flex-column flex-sm-row">
+                    <h5 class="main-color mb-0">Everyday Pancakes</h5>
+                    <span class="d-none d-sm-block my-auto"></span>
+                    <h5 class="main-color mb-0">$35.92</h5>
+                </div>
+                <div class="body">
+                    <p>Fluffy pancakes with golden edges and a soft center. Delicious. Homemade.</p>
+                </div>
+            </div>
+        </div>
+    
+        <div class="item col-11 col-sm-9 col-md-6 col-lg-6 mx-auto row" data-id="2">
+            <div class="frame col-5 col-lg-3">
+                <div class="image">
+                    <img src="./images/BF-2.webp" alt="BreakFast">
+                    <div class="layout">
+                        <i class="fa-regular fa-square-plus" onclick="productPopup(this)"></i>
+                    </div>
+                </div>
+            </div>
+            <div class="text col-7 col-lg-9">
+                <div class="header flex-column flex-sm-row">
+                    <h5 class="main-color mb-0">Waffles</h5>
+                    <span class="d-none d-sm-block my-auto"></span>
+                    <h5 class="main-color mb-0">$38.36</h5>
+                </div>
+                <div class="body">
+                    <p>Golden waffles with crisp edges and a soft, airy center. Fresh. Homemade.</p>
+                </div>
+            </div>
+        </div>
+    
+        <div class="item col-11 col-sm-9 col-md-6 col-lg-6 mx-auto row" data-id="3">
+            <div class="frame col-5 col-lg-3">
+                <div class="image">
+                    <img src="./images/BF-3.webp" alt="BreakFast">
+                    <div class="layout">
+                        <i class="fa-regular fa-square-plus" onclick="productPopup(this)"></i>
+                    </div>
+                </div>
+            </div>
+            <div class="text col-7 col-lg-9">
+                <div class="header flex-column flex-sm-row">
+                    <h5 class="main-color mb-0">French Toast</h5>
+                    <span class="d-none d-sm-block my-auto"></span>
+                    <h5 class="main-color mb-0">$47.88</h5>
+                </div>
+                <div class="body">
+                    <p>Thick French toast with a tender center and golden edges. Fresh. Anytime.</p>
+                </div>
+            </div>
+        </div>
+    
+        <div class="item col-11 col-sm-9 col-md-6 col-lg-6 mx-auto row" data-id="4">
+            <div class="frame col-5 col-lg-3">
+                <div class="image">
+                    <img src="./images/BF-4.webp" alt="BreakFast">
+                    <div class="layout">
+                        <i class="fa-regular fa-square-plus" onclick="productPopup(this)"></i>
+                    </div>
+                </div>
+            </div>
+            <div class="text col-7 col-lg-9">
+                <div class="header flex-column flex-sm-row">
+                    <h5 class="main-color mb-0">Shakshuka With Feta</h5>
+                    <span class="d-none d-sm-block my-auto"></span>
+                    <h5 class="main-color mb-0">$31.95</h5>
+                </div>
+                <div class="body">
+                    <p>Spiced tomatoes, peppers, eggs, and feta in a warm skillet. Fresh. Tasty.</p>
+                </div>
+            </div>
+        </div>
+    
+        <div class="item col-11 col-sm-9 col-md-6 col-lg-6 mx-auto row" data-id="5">
+            <div class="frame col-5 col-lg-3">
+                <div class="image">
+                    <img src="./images/BF-5.webp" alt="BreakFast">
+                    <div class="layout">
+                        <i class="fa-regular fa-square-plus" onclick="productPopup(this)"></i>
+                    </div>
+                </div>
+            </div>
+            <div class="text col-7 col-lg-9">
+                <div class="header flex-column flex-sm-row">
+                    <h5 class="main-color mb-0">Avocado Toast</h5>
+                    <span class="d-none d-sm-block my-auto"></span>
+                    <h5 class="main-color mb-0">$43.78</h5>
+                </div>
+                <div class="body">
+                    <p>Creamy avocado spread over crisp toast for a fresh bite. Fresh. Homemade.</p>
+                </div>
+            </div>
+        </div>
+    
+        <div class="item col-11 col-sm-9 col-md-6 col-lg-6 mx-auto row" data-id="6">
+            <div class="frame col-5 col-lg-3">
+                <div class="image">
+                    <img src="./images/BF-6.webp" alt="BreakFast">
+                    <div class="layout">
+                        <i class="fa-regular fa-square-plus" onclick="productPopup(this)"></i>
+                    </div>
+                </div>
+            </div>
+            <div class="text col-7 col-lg-9">
+                <div class="header flex-column flex-sm-row">
+                    <h5 class="main-color mb-0">Scallion Egg Wrap</h5>
+                    <span class="d-none d-sm-block my-auto"></span>
+                    <h5 class="main-color mb-0">$31.2</h5>
+                </div>
+                <div class="body">
+                    <p>A tender egg wrap with fresh scallions for a savory start. Fresh. Savory!</p>
+                </div>
+            </div>
+        </div>
+    </div>
+                    </div>
+
+                    <div class="main-menu fade" id="Lunch">
+                        <div class="lunch main-menu-content row row-gap-5">
+                        
+        <div class="item col-11 col-sm-9 col-md-6 col-lg-6 mx-auto row" data-id="7">
+            <div class="frame col-5 col-lg-3">
+                <div class="image">
+                    <img src="./images/L-1.png" alt="BreakFast">
+                    <div class="layout">
+                        <i class="fa-regular fa-square-plus" onclick="productPopup(this)"></i>
+                    </div>
+                </div>
+            </div>
+            <div class="text col-7 col-lg-9">
+                <div class="header flex-column flex-sm-row">
+                    <h5 class="main-color mb-0">Bean Quesadillas</h5>
+                    <span class="d-none d-sm-block my-auto"></span>
+                    <h5 class="main-color mb-0">$30.43</h5>
+                </div>
+                <div class="body">
+                    <p>Warm bean quesadillas with seasoned filling and melted cheese. Delicious.</p>
+                </div>
+            </div>
+        </div>
+    
+        <div class="item col-11 col-sm-9 col-md-6 col-lg-6 mx-auto row" data-id="8">
+            <div class="frame col-5 col-lg-3">
+                <div class="image">
+                    <img src="./images/L-2.png" alt="BreakFast">
+                    <div class="layout">
+                        <i class="fa-regular fa-square-plus" onclick="productPopup(this)"></i>
+                    </div>
+                </div>
+            </div>
+            <div class="text col-7 col-lg-9">
+                <div class="header flex-column flex-sm-row">
+                    <h5 class="main-color mb-0">Creamy Mushroom</h5>
+                    <span class="d-none d-sm-block my-auto"></span>
+                    <h5 class="main-color mb-0">$29.51</h5>
+                </div>
+                <div class="body">
+                    <p>Creamy mushrooms cooked until tender for a rich lunch. Fresh. Comforting.</p>
+                </div>
+            </div>
+        </div>
+    
+        <div class="item col-11 col-sm-9 col-md-6 col-lg-6 mx-auto row" data-id="9">
+            <div class="frame col-5 col-lg-3">
+                <div class="image">
+                    <img src="./images/L-3.png" alt="BreakFast">
+                    <div class="layout">
+                        <i class="fa-regular fa-square-plus" onclick="productPopup(this)"></i>
+                    </div>
+                </div>
+            </div>
+            <div class="text col-7 col-lg-9">
+                <div class="header flex-column flex-sm-row">
+                    <h5 class="main-color mb-0">Noodle Salad</h5>
+                    <span class="d-none d-sm-block my-auto"></span>
+                    <h5 class="main-color mb-0">$31.66</h5>
+                </div>
+                <div class="body">
+                    <p>Fresh noodles with crisp vegetables and a light dressing. Fresh. Anytime.</p>
+                </div>
+            </div>
+        </div>
+    
+        <div class="item col-11 col-sm-9 col-md-6 col-lg-6 mx-auto row" data-id="10">
+            <div class="frame col-5 col-lg-3">
+                <div class="image">
+                    <img src="./images/L-4.png" alt="BreakFast">
+                    <div class="layout">
+                        <i class="fa-regular fa-square-plus" onclick="productPopup(this)"></i>
+                    </div>
+                </div>
+            </div>
+            <div class="text col-7 col-lg-9">
+                <div class="header flex-column flex-sm-row">
+                    <h5 class="main-color mb-0">Feta Grilled Cheese</h5>
+                    <span class="d-none d-sm-block my-auto"></span>
+                    <h5 class="main-color mb-0">$42.17</h5>
+                </div>
+                <div class="body">
+                    <p>Golden grilled cheese filled with creamy, salty feta. Delicious. Anytime.</p>
+                </div>
+            </div>
+        </div>
+    
+        <div class="item col-11 col-sm-9 col-md-6 col-lg-6 mx-auto row" data-id="11">
+            <div class="frame col-5 col-lg-3">
+                <div class="image">
+                    <img src="./images/L-5.png" alt="BreakFast">
+                    <div class="layout">
+                        <i class="fa-regular fa-square-plus" onclick="productPopup(this)"></i>
+                    </div>
+                </div>
+            </div>
+            <div class="text col-7 col-lg-9">
+                <div class="header flex-column flex-sm-row">
+                    <h5 class="main-color mb-0">Chicken Pasta</h5>
+                    <span class="d-none d-sm-block my-auto"></span>
+                    <h5 class="main-color mb-0">$25.22</h5>
+                </div>
+                <div class="body">
+                    <p>Tender chicken and pasta in a smooth, comforting sauce. Fresh. Delicious.</p>
+                </div>
+            </div>
+        </div>
+    
+        <div class="item col-11 col-sm-9 col-md-6 col-lg-6 mx-auto row" data-id="12">
+            <div class="frame col-5 col-lg-3">
+                <div class="image">
+                    <img src="./images/L-6.png" alt="BreakFast">
+                    <div class="layout">
+                        <i class="fa-regular fa-square-plus" onclick="productPopup(this)"></i>
+                    </div>
+                </div>
+            </div>
+            <div class="text col-7 col-lg-9">
+                <div class="header flex-column flex-sm-row">
+                    <h5 class="main-color mb-0">Sausage Pasta</h5>
+                    <span class="d-none d-sm-block my-auto"></span>
+                    <h5 class="main-color mb-0">$43.46</h5>
+                </div>
+                <div class="body">
+                    <p>Seasoned sausage and pasta combined in a hearty sauce. Fresh. Comforting.</p>
+                </div>
+            </div>
+        </div>
+    </div>
+                    </div>
+                    <div class="main-menu fade" id="Dinner">
+                        <div class="dinner main-menu-content row row-gap-5">
+                        
+        <div class="item col-11 col-sm-9 col-md-6 col-lg-6 mx-auto row" data-id="13">
+            <div class="frame col-5 col-lg-3">
+                <div class="image">
+                    <img src="./images/Di-1.webp" alt="BreakFast">
+                    <div class="layout">
+                        <i class="fa-regular fa-square-plus" onclick="productPopup(this)"></i>
+                    </div>
+                </div>
+            </div>
+            <div class="text col-7 col-lg-9">
+                <div class="header flex-column flex-sm-row">
+                    <h5 class="main-color mb-0">Creamy Beans</h5>
+                    <span class="d-none d-sm-block my-auto"></span>
+                    <h5 class="main-color mb-0">$42.85</h5>
+                </div>
+                <div class="body">
+                    <p>Creamy beans gently simmered with warm, balanced seasoning. Fresh. Tasty.</p>
+                </div>
+            </div>
+        </div>
+    
+        <div class="item col-11 col-sm-9 col-md-6 col-lg-6 mx-auto row" data-id="14">
+            <div class="frame col-5 col-lg-3">
+                <div class="image">
+                    <img src="./images/Di-2.webp" alt="BreakFast">
+                    <div class="layout">
+                        <i class="fa-regular fa-square-plus" onclick="productPopup(this)"></i>
+                    </div>
+                </div>
+            </div>
+            <div class="text col-7 col-lg-9">
+                <div class="header flex-column flex-sm-row">
+                    <h5 class="main-color mb-0">Classic Shrimp</h5>
+                    <span class="d-none d-sm-block my-auto"></span>
+                    <h5 class="main-color mb-0">$49.42</h5>
+                </div>
+                <div class="body">
+                    <p>Juicy shrimp prepared with bright seasoning for a savory dinner. Anytime.</p>
+                </div>
+            </div>
+        </div>
+    
+        <div class="item col-11 col-sm-9 col-md-6 col-lg-6 mx-auto row" data-id="15">
+            <div class="frame col-5 col-lg-3">
+                <div class="image">
+                    <img src="./images/Di-3.webp" alt="BreakFast">
+                    <div class="layout">
+                        <i class="fa-regular fa-square-plus" onclick="productPopup(this)"></i>
+                    </div>
+                </div>
+            </div>
+            <div class="text col-7 col-lg-9">
+                <div class="header flex-column flex-sm-row">
+                    <h5 class="main-color mb-0">Kung Pao Chicken</h5>
+                    <span class="d-none d-sm-block my-auto"></span>
+                    <h5 class="main-color mb-0">$28.16</h5>
+                </div>
+                <div class="body">
+                    <p>Tender chicken in a bold sauce with a sweet, savory kick. Fresh. Anytime.</p>
+                </div>
+            </div>
+        </div>
+    
+        <div class="item col-11 col-sm-9 col-md-6 col-lg-6 mx-auto row" data-id="16">
+            <div class="frame col-5 col-lg-3">
+                <div class="image">
+                    <img src="./images/Di-4.webp" alt="BreakFast">
+                    <div class="layout">
+                        <i class="fa-regular fa-square-plus" onclick="productPopup(this)"></i>
+                    </div>
+                </div>
+            </div>
+            <div class="text col-7 col-lg-9">
+                <div class="header flex-column flex-sm-row">
+                    <h5 class="main-color mb-0">Elena Sandwich</h5>
+                    <span class="d-none d-sm-block my-auto"></span>
+                    <h5 class="main-color mb-0">$29</h5>
+                </div>
+                <div class="body">
+                    <p>A satisfying sandwich layered with fresh, balanced fillings. Great taste.</p>
+                </div>
+            </div>
+        </div>
+    
+        <div class="item col-11 col-sm-9 col-md-6 col-lg-6 mx-auto row" data-id="17">
+            <div class="frame col-5 col-lg-3">
+                <div class="image">
+                    <img src="./images/Di-5.webp" alt="BreakFast">
+                    <div class="layout">
+                        <i class="fa-regular fa-square-plus" onclick="productPopup(this)"></i>
+                    </div>
+                </div>
+            </div>
+            <div class="text col-7 col-lg-9">
+                <div class="header flex-column flex-sm-row">
+                    <h5 class="main-color mb-0">Turmeric Chicken</h5>
+                    <span class="d-none d-sm-block my-auto"></span>
+                    <h5 class="main-color mb-0">$45.23</h5>
+                </div>
+                <div class="body">
+                    <p>Tender turmeric chicken with a warm, aromatic finish. Delicious. Anytime.</p>
+                </div>
+            </div>
+        </div>
+    
+        <div class="item col-11 col-sm-9 col-md-6 col-lg-6 mx-auto row" data-id="18">
+            <div class="frame col-5 col-lg-3">
+                <div class="image">
+                    <img src="./images/Di-6.webp" alt="BreakFast">
+                    <div class="layout">
+                        <i class="fa-regular fa-square-plus" onclick="productPopup(this)"></i>
+                    </div>
+                </div>
+            </div>
+            <div class="text col-7 col-lg-9">
+                <div class="header flex-column flex-sm-row">
+                    <h5 class="main-color mb-0">Original Nachos</h5>
+                    <span class="d-none d-sm-block my-auto"></span>
+                    <h5 class="main-color mb-0">$26.45</h5>
+                </div>
+                <div class="body">
+                    <p>Crisp nachos layered with flavorful toppings for sharing. Fresh. Anytime.</p>
+                </div>
+            </div>
+        </div>
+    </div>
+                    </div>
+                    <div class="main-menu fade" id="Drinks">
+                        <div class="drinks main-menu-content row row-gap-5">
+                        
+        <div class="item col-11 col-sm-9 col-md-6 col-lg-6 mx-auto row" data-id="19">
+            <div class="frame col-5 col-lg-3">
+                <div class="image">
+                    <img src="./images/Dr-1.webp" alt="BreakFast">
+                    <div class="layout">
+                        <i class="fa-regular fa-square-plus" onclick="productPopup(this)"></i>
+                    </div>
+                </div>
+            </div>
+            <div class="text col-7 col-lg-9">
+                <div class="header flex-column flex-sm-row">
+                    <h5 class="main-color mb-0">Blueberry Lemonade</h5>
+                    <span class="d-none d-sm-block my-auto"></span>
+                    <h5 class="main-color mb-0">$36.49</h5>
+                </div>
+                <div class="body">
+                    <p>Bright blueberry and lemon flavors in a refreshing drink. Fresh. Anytime.</p>
+                </div>
+            </div>
+        </div>
+    
+        <div class="item col-11 col-sm-9 col-md-6 col-lg-6 mx-auto row" data-id="20">
+            <div class="frame col-5 col-lg-3">
+                <div class="image">
+                    <img src="./images/Dr-2.webp" alt="BreakFast">
+                    <div class="layout">
+                        <i class="fa-regular fa-square-plus" onclick="productPopup(this)"></i>
+                    </div>
+                </div>
+            </div>
+            <div class="text col-7 col-lg-9">
+                <div class="header flex-column flex-sm-row">
+                    <h5 class="main-color mb-0">Frozen Lemonade</h5>
+                    <span class="d-none d-sm-block my-auto"></span>
+                    <h5 class="main-color mb-0">$41.5</h5>
+                </div>
+                <div class="body">
+                    <p>Cool frozen lemonade with a smooth, bright citrus finish. Fresh. Anytime.</p>
+                </div>
+            </div>
+        </div>
+    
+        <div class="item col-11 col-sm-9 col-md-6 col-lg-6 mx-auto row" data-id="21">
+            <div class="frame col-5 col-lg-3">
+                <div class="image">
+                    <img src="./images/Dr-3.webp" alt="BreakFast">
+                    <div class="layout">
+                        <i class="fa-regular fa-square-plus" onclick="productPopup(this)"></i>
+                    </div>
+                </div>
+            </div>
+            <div class="text col-7 col-lg-9">
+                <div class="header flex-column flex-sm-row">
+                    <h5 class="main-color mb-0">Raspberry Lemonade</h5>
+                    <span class="d-none d-sm-block my-auto"></span>
+                    <h5 class="main-color mb-0">$48.14</h5>
+                </div>
+                <div class="body">
+                    <p>Sweet raspberry and fresh lemon blended into a lively drink. Great taste.</p>
+                </div>
+            </div>
+        </div>
+    
+        <div class="item col-11 col-sm-9 col-md-6 col-lg-6 mx-auto row" data-id="22">
+            <div class="frame col-5 col-lg-3">
+                <div class="image">
+                    <img src="./images/Dr-4.webp" alt="BreakFast">
+                    <div class="layout">
+                        <i class="fa-regular fa-square-plus" onclick="productPopup(this)"></i>
+                    </div>
+                </div>
+            </div>
+            <div class="text col-7 col-lg-9">
+                <div class="header flex-column flex-sm-row">
+                    <h5 class="main-color mb-0">Raspberry Lemonade</h5>
+                    <span class="d-none d-sm-block my-auto"></span>
+                    <h5 class="main-color mb-0">$46.99</h5>
+                </div>
+                <div class="body">
+                    <p>Fresh raspberry and lemon flavors in a bright, fruity drink. Great taste.</p>
+                </div>
+            </div>
+        </div>
+    
+        <div class="item col-11 col-sm-9 col-md-6 col-lg-6 mx-auto row" data-id="23">
+            <div class="frame col-5 col-lg-3">
+                <div class="image">
+                    <img src="./images/Dr-5.webp" alt="BreakFast">
+                    <div class="layout">
+                        <i class="fa-regular fa-square-plus" onclick="productPopup(this)"></i>
+                    </div>
+                </div>
+            </div>
+            <div class="text col-7 col-lg-9">
+                <div class="header flex-column flex-sm-row">
+                    <h5 class="main-color mb-0">Honeydew Melon</h5>
+                    <span class="d-none d-sm-block my-auto"></span>
+                    <h5 class="main-color mb-0">$43.41</h5>
+                </div>
+                <div class="body">
+                    <p>Light honeydew melon flavor in a smooth, refreshing drink today. Anytime.</p>
+                </div>
+            </div>
+        </div>
+    
+        <div class="item col-11 col-sm-9 col-md-6 col-lg-6 mx-auto row" data-id="24">
+            <div class="frame col-5 col-lg-3">
+                <div class="image">
+                    <img src="./images/Dr-6.webp" alt="BreakFast">
+                    <div class="layout">
+                        <i class="fa-regular fa-square-plus" onclick="productPopup(this)"></i>
+                    </div>
+                </div>
+            </div>
+            <div class="text col-7 col-lg-9">
+                <div class="header flex-column flex-sm-row">
+                    <h5 class="main-color mb-0">Changing Lemonade</h5>
+                    <span class="d-none d-sm-block my-auto"></span>
+                    <h5 class="main-color mb-0">$42.42</h5>
+                </div>
+                <div class="body">
+                    <p>Bright citrus lemonade with a lively and refreshing finish. Fresh. Tasty.</p>
+                </div>
+            </div>
+        </div>
+    </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="Chefs" class="main-bg">
+        <div class="container">
+            <div class="title text-center">
+                <h4>EXPERIENCED TEAM</h4>
+                <img src="./images/separator.svg" alt="separator">
+                <h2 class="display-5">Meet Our Chef</h2>
+            </div>
+
+            <div class="content row pt-4 row-gap-5">
+                <div class="box col-sm-6 col-md-4 col-lg-4 text-white mx-auto mx-sm-0">
+                    <div class="item">
+                        <div class="image">
+                            <img src="./images/chef-1.jpg" alt="chef">
+                            <div class="layout">
+                                <div class="icons">
+                                    <i class="fa-brands fa-facebook-f"></i>
+                                    <i class="fa-brands fa-x-twitter"></i>
+                                    <i class="fa-brands fa-instagram"></i>
+                                    <i class="fa-brands fa-linkedin-in"></i>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="text pt-3">
+                            <h2>Willium Joe</h2>
+                            <span class="main-color mb-2 d-block">MASTER CHEF</span>
+                            <p>
+                                Lorem Ipsum is simply dummy printing and typeset industry lorem Ipsum has been the
+                                industrys.
+                            </p>
+                        </div>
+                    </div>
+                </div>
+                <div class="box col-sm-6 col-md-4 col-lg-4 text-white mx-auto mx-sm-0">
+                    <div class="item">
+                        <div class="image">
+                            <img src="./images/chef-2.jpg" alt="chef">
+                            <div class="layout">
+                                <div class="icons">
+                                    <i class="fa-brands fa-facebook-f"></i>
+                                    <i class="fa-brands fa-x-twitter"></i>
+                                    <i class="fa-brands fa-instagram"></i>
+                                    <i class="fa-brands fa-linkedin-in"></i>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="text pt-3">
+                            <h2>Steave Den</h2>
+                            <span class="main-color mb-2 d-block">MASTER CHEF</span>
+                            <p>
+                                Lorem Ipsum is simply dummy printing and typeset industry lorem Ipsum has been the
+                                industrys.
+                            </p>
+                        </div>
+                    </div>
+                </div>
+                <div class="box col-sm-6 col-md-4 col-lg-4 text-white mx-auto mx-sm-0">
+                    <div class="item">
+                        <div class="image">
+                            <img src="./images/chef-3.png" alt="chef">
+                            <div class="layout">
+                                <div class="icons">
+                                    <i class="fa-brands fa-facebook-f"></i>
+                                    <i class="fa-brands fa-x-twitter"></i>
+                                    <i class="fa-brands fa-instagram"></i>
+                                    <i class="fa-brands fa-linkedin-in"></i>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="text pt-3">
+                            <h2>Oliver Joe</h2>
+                            <span class="main-color mb-2 d-block">MASTER CHEF</span>
+                            <p>Lorem Ipsum is simply dummy printing and typeset industry lorem Ipsum has been the
+                                industrys.
+                            </p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="Contact" class="pb-0">
+        <div class="content mx-2">
+            <form action="" class="main-bg">
+                <img src="./images/pattern-9.svg" alt="pattern">
+                <img src="./images/pattern-9.svg" alt="pattern">
+
+                <div class="logo">
+                    <img src="./images/logo.png" class="img-fluid d-block m-auto" alt="logo">
+                </div>
+
+                <div class="text text-center">
+                    <p><i class="fa-solid fa-location-dot"></i> Delicious City, London 9578, UK</p>
+                    <p><i class="fa-regular fa-clock"></i> Daily : 8.00 am to 10.00 pm</p>
+                    <p><i class="fa-regular fa-envelope"></i> booking@restaurant.com</p>
+                </div>
+
+                <div class="decoration">
+                    <span class="rotate-decor"></span>
+                    <span class="rotate-decor"></span>
+                    <span class="rotate-decor"></span>
+                </div>
+
+                <div class="part">
+                    <input type="text" name="name" placeholder="Name...">
+                    <input type="email" name="email" id="Email" placeholder="Email...">
+                </div>
+
+                <textarea name="massage" id="massage" placeholder="Notes Massage..."></textarea>
+
+                <button class="mainButton w-100"><span>Send Massage</span></button>
+            </form>
+        </div>
+        <footer class="position-relative my-5">
+            <p>© 2023 Restaurant. All Rights Reserved | Created by <span class="main-color">SemiCode</span></p>
+        </footer>
+    </section>
+
+    <div class="popup text-light" data-popup-name="bookTable" onclick="closePopup('bookTable')">
+        <div class="popup-element popupEle">
+            <i class="fa-regular fa-circle-xmark cancel" onclick="closePopup('bookTable')"></i>
+            <div class="title text-center">
+                <h4>RESERVATION</h4>
+                <img src="./images/separator.svg" alt="separator">
+                <h2 class="display-6 my-3">Book A Table</h2>
+            </div>
+            <p class="text-center">Restaurant will be open for all days, Sunday night will be closed, All booking
+                payment is secured with
+                credit card, no charges will be aplly for online booking. no refundable.</p>
+            <p class="text-center">Booking request <span>+20-102-108-0042</span> or fill out the order form</p>
+
+            <form action="#">
+                <div class="part">
+                    <input type="text" placeholder="Reservation Name...">
+                    <input type="text" placeholder="Phone Number...">
+                </div>
+                <div class="part">
+                    <input type="number" min="1" placeholder="Seats...">
+                    <input type="datetime-local">
+                </div>
+                <textarea name="massage" id="massage" placeholder="Notes Massage..."></textarea>
+                <button class="mainButton"><span>Book A Table</span></button>
+            </form>
+        </div>
+    </div>
+
+    <div class="nav-popup text-white popup" data-popup-name="navPopup" onclick="closePopup('navPopup')">
+        <div class="nav-popup-ele popupEle main-bg">
+            <i class="fa-regular fa-circle-xmark cancel" onclick="closePopup('navPopup')"></i>
+            <div class="logo">
+                <img src="./images/logo.png" class="img-fluid d-block m-auto" alt="logo">
+            </div>
+            <div class="delici-img mx-auto">
+                <img src="./images/sidebar-image.jpg" class="img-fluid d-block" alt="sidebar">
+            </div>
+            <div class="links">
+                <ul class="mb-0 p-0">
+                    <li class="active"><span class="rotate-decor"></span> <a href="#Home">Home</a></li>
+                    <li><span class="rotate-decor"></span> <a href="#About">About Us</a></li>
+                    <li><span class="rotate-decor"></span> <a href="#Story">Our Story</a></li>
+                    <li><span class="rotate-decor"></span> <a href="#Special">Special Dish</a></li>
+                    <li><span class="rotate-decor"></span> <a href="#Menu">Menu</a></li>
+                    <li><span class="rotate-decor"></span> <a href="#Chefs">Our Chefs</a></li>
+                    <li><span class="rotate-decor"></span> <a href="#Contact">Contact Us</a></li>
+                </ul>
+            </div>
+            <div class="text text-center">
+                <h2 class="text-white h1">Visit Us</h2>
+                <p><i class="fa-solid fa-location-dot"></i> Delicious City, London 9578, UK</p>
+                <p><i class="fa-regular fa-clock"></i> Daily : 8.00 am to 10.00 pm</p>
+                <p><i class="fa-regular fa-envelope"></i> booking@restaurant.com</p>
+            </div>
+            <span class="rotate-decor mx-auto d-block"></span>
+            <div class="book-now">
+                <span class="fw-bolder">Booking Request</span>
+                <a href="tel:+201021080042" class="mainLink">+20-102-108-0042</a>
+            </div>
+        </div>
+    </div>
+
+    <div class="product-popup popup" data-popup-name="productPopup" onclick="closePopup('productPopup')">
+        <div class="product-ele popupEle">
+        </div>
+    </div>
+
+    <div class="loading hide d-none">
+        <div class="content">
+            <div class="spin m-auto"></div>
+            <div class="text">
+                <p class="first">DELICI</p>
+                <p class="second"><span style="--i: 0;">D</span><span style="--i: 1;">E</span><span style="--i: 2;">L</span><span style="--i: 3;">I</span><span style="--i: 4;">C</span><span style="--i: 5;">I</span></p>
+            </div>
+        </div>
+    </div>
+
+    <script src="./js/bootstrap.js"></script>
+    <script src="./js/menu.js"></script>
+    <script src="./js/fun.js"></script>
+    <script src="./js/script.js"></script>
+
+
+</body></html>
